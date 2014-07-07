@@ -7,32 +7,7 @@ This linter plugin for [SublimeLinter](http://sublimelinter.readthedocs.org) wil
 
 The script provided was created originally by [Mikk](http://www.wowace.com/addons/findglobals/) and has been modified to work as a linter.
 
-## Directives in the file:
-The following directives in the file turn certain features off in the detection 
-
-**-- GLOBALS:** SomeGlobal, SomeOtherGlobal
-
-  * The script will never complain about these. There may be multiple lines of these anywhere in the file, taking effect globally (for now). There is no way to un-GLOBAL an already declared global.
-
-**-- SETGLOBALFILE** [ON/OFF]
-
-  * Enable/disable `SETGLOBAL` checks in the global scope
-    * Default: ON
-
-**-- SETGLOBALFUNC** [ON/OFF]
-
-  * Enable/disable `SETGLOBAL` checks in functions. This setting affects the whole file.
-    * Default: ON
-
-**-- GETGLOBALFILE** [ON/OFF]
-
-  * Enable/disable `GETGLOBAL` checks in functions. This setting affects the whole file.
-    * Default: OFF
-
-**-- GETGLOBALFUNC** [ON/OFF]
-
-  * Enable/disable `GETGLOBAL` checks in functions. This setting affects the whole file.
-    * Default: ON
+For additional details check the [wiki](https://github.com/Sinaloit/SublimeLinter-contrib-lua-globals/wiki)
 
 ## Linting Behaviors
 * `GETGLOBAL` occurrences will be marked as warnings

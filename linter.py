@@ -7,10 +7,10 @@
 #
 # License: MIT
 #
+"""This module exports the LuaGlobals plugin class."""
+
 from os.path import dirname, realpath
 LUA_PLUGIN = dirname(realpath(__file__))
-
-"""This module exports the LuaGlobals plugin class."""
 
 from SublimeLinter.lint import Linter, util
 
