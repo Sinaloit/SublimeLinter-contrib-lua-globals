@@ -8,7 +8,7 @@ This linter plugin for [SublimeLinter](http://sublimelinter.readthedocs.org) wil
 The script provided was created originally by [Mikk](http://www.wowace.com/addons/findglobals/) and has been modified to work as a linter.
 
 ## Directives in the file:
-The following directives in the file turn certain features off in the detection
+The following directives in the file turn certain features off in the detection 
 
 **-- GLOBALS:** SomeGlobal, SomeOtherGlobal
 
