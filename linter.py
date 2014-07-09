@@ -9,7 +9,7 @@
 #
 """This module exports the LuaGlobals plugin class."""
 
-from os.path import dirname, realpath, join
+from os.path import dirname, join, realpath
 FOLDER_PATH = dirname(realpath(__file__))
 
 from SublimeLinter.lint import Linter
