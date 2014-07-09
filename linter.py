@@ -12,7 +12,7 @@
 from os.path import dirname, realpath, join as pathjoin
 FOLDER_PATH = dirname(realpath(__file__))
 
-from SublimeLinter.lint import Linter, util
+from SublimeLinter.lint import Linter
 
 
 class LuaGlobals(Linter):
@@ -20,7 +20,7 @@ class LuaGlobals(Linter):
     """Provides an interface to lua-globals."""
 
     syntax = 'lua'
-    script_path = pathjoin(FOLDER_PATH,'findglobals.lua')
+    script_path = pathjoin(FOLDER_PATH, 'findglobals.lua')
     cmd = 'lua "' + script_path + '" "@"'
     regex = (
         r'\s*\[(?P<line>\d+)\]\s+'
