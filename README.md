@@ -1,5 +1,5 @@
-SublimeLinter-lua-globals
-=========================
+SublimeLinter-contrib-lua-globals
+=================================
 
 [![Build Status](https://travis-ci.org/Sinaloit/SublimeLinter-contrib-lua-globals.svg?branch=master)](https://travis-ci.org/Sinaloit/SublimeLinter-contrib-lua-globals)
 
@@ -33,7 +33,7 @@ Before using this plugin, you must ensure that `lua` (which includes `luac`) is 
 ### Linter configuration
 In order for `lua` and `luac` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
 
-Once `lua` and `luac` are installed and configured, you can proceed to install the SublimeLinter-lua-globals plugin if it is not yet installed.
+Once `lua` and `luac` are installed and configured, you can proceed to install the SublimeLinter-contrib-lua-globals plugin if it is not yet installed.
 
 ### Plugin installation
 Please use [Package Control](https://sublime.wbond.net/installation) to install the linter plugin. This will ensure that the plugin will be updated when new versions are available. If you want to install from source so you can modify the source code, you probably know what you are doing so we won’t cover that here.
@@ -42,7 +42,7 @@ To install via Package Control, do the following:
 
 1. Within Sublime Text, bring up the [Command Palette](http://docs.sublimetext.info/en/sublime-text-3/extensibility/command_palette.html) and type `install`. Among the commands you should see `Package Control: Install Package`. If that command is not highlighted, use the keyboard or mouse to select it. There will be a pause of a few seconds while Package Control fetches the list of available plugins.
 
-1. When the plugin list appears, type `lua`. Among the entries you should see `SublimeLinter-lua-globals`. If that entry is not highlighted, use the keyboard or mouse to select it.
+1. When the plugin list appears, type `lua`. Among the entries you should see `SublimeLinter-contrib-lua-globals`. If that entry is not highlighted, use the keyboard or mouse to select it.
 
 ## Settings
 For general information on how SublimeLinter works with settings, please see [Settings](http://sublimelinter.readthedocs.org/en/latest/settings.html). For information on generic linter settings, please see [Linter Settings](http://sublimelinter.readthedocs.org/en/latest/linter_settings.html).
